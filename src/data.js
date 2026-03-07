@@ -1,13 +1,13 @@
 export const skills = [
-  { name: 'React', icon: '⚛️' },
-  { name: 'JavaScript', icon: '📜' },
-  { name: 'HTML', icon: '🌐' },
-  { name: 'CSS', icon: '🎨' },
-  { name: 'Python', icon: '🐍' },
-  { name: 'Node.js', icon: '🚀' },
-  { name: 'MongoDB', icon: '🍃' },
-  { name: 'ML Basics', icon: '🤖' },
-  { name: 'Team Lead', icon: '👥' },
+  { name: 'React', icon: '' },
+  { name: 'JavaScript', icon: '' },
+  { name: 'HTML', icon: '' },
+  { name: 'CSS', icon: '' },
+  { name: 'Python', icon: '' },
+  { name: 'Node.js', icon: '' },
+  { name: 'MongoDB', icon: '' },
+  { name: 'ML Basics', icon: '' },
+  { name: 'Team Lead', icon: '' },
 ];
 
 export const projects = [
@@ -33,17 +33,7 @@ export const projects = [
     role: 'Team Lead',
     year: '2025 - Present'
   },
-  {
-    title: 'E-Commerce Web Application',
-    description: 'Ongoing full-stack e-commerce project. Building complete shopping functionality, user authentication, product management, and payment integration.',
-    image: '🛒',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux'],
-    github: 'https://github.com/deepthigopisetti/ecommerce-app',
-    live: 'https://ecommerce-demo.com',
-    featured: true,
-    role: 'Full Stack Developer',
-    year: '2025 - Present'
-  },
+  
   {
     title: 'Basic To-Do List App',
     description: 'My first beginner project - a simple to-do list application to learn the basics of web development. Track daily tasks with add, edit, and delete functionality.',
@@ -55,28 +45,6 @@ export const projects = [
     role: 'Beginner Developer',
     year: '2025'
   },
-  {
-    title: 'FMML Labs',
-    description: 'Machine learning lab assignments and projects from my coursework.',
-    image: '🔬',
-    technologies: ['Python', 'Jupyter', 'Machine Learning', 'Data Science'],
-    github: 'https://github.com/deepthigopisetti/FMML-LABS',
-    live: '',
-    featured: false,
-    role: 'Student',
-    year: '2025'
-  },
-  {
-    title: 'TCS CODE VITA',
-    description: 'TCS Code Vita competition preparation and practice problems.',
-    image: '🏆',
-    technologies: ['Python', 'Algorithms', 'Problem Solving'],
-    github: 'https://github.com/deepthigopisetti/TCS-CODE-VITA-',
-    live: '',
-    featured: false,
-    role: 'Participant',
-    year: '2025'
-  }
 ];
 
 export const experience = [
@@ -102,17 +70,7 @@ export const experience = [
       'Implemented modern React components'
     ]
   },
-  {
-    company: 'E-Commerce Application',
-    position: 'Full Stack Developer',
-    period: '2025 - Present',
-    description: 'Building a complete e-commerce web application from scratch.',
-    achievements: [
-      'Developing both frontend and backend features',
-      'Implementing user authentication and payment',
-      'Creating product management system'
-    ]
-  }
+  
 ];
 
 export const education = {
